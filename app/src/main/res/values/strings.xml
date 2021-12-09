@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Attendance Tracker</string>
+    <string name="pls_remember_sign_up">Please Remember Favourite Colour, Food and Actor. These will be needed if you forget your password.</string>
+    <string-array name="attendance_spinner">
+        <item>present</item>
+        <item>absent</item>
+        <item>onLeave</item>
+        <item>paidLeave</item>
+        <item>weeklyOff</item>
+    </string-array>
+    <string-array name="user_role_spinner_array">
+        <item>site_engineer</item>
+        <item>ir_admin</item>
+        <item>section_incharge</item>
+    </string-array>
+</resources>

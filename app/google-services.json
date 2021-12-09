@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821508439664",
+    "firebase_url": "https://attendancetracker-fe5e7.firebaseio.com",
+    "project_id": "attendancetracker-fe5e7",
+    "storage_bucket": "attendancetracker-fe5e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821508439664:android:03997b5cecfddec7c63eb5",
+        "android_client_info": {
+          "package_name": "com.bhaskar.attendancetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821508439664-6g4acb7rsvrourg4onmflp3outbhauu6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE99zW0RdSNIfkJ5npdxFSOLA8n_FtKek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821508439664-6g4acb7rsvrourg4onmflp3outbhauu6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

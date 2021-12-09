@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/home_page_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center_horizontal"
+            android:text="Home Page"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/home_page_sign_out_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="SIGN OUT"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_view_profile_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="VIEW PROFILE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_give_attendance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="GIVE ATTENDANCE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_edit_attendance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="EDIT ATTENDANCE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_view_attendance_report_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="VIEW ATTENDANCE REPORT"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_approve_attendance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="APPROVE ATTENDANCE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_view_and_assign_employee_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="VIEW AND ASSIGN EMPLOYEE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_collect_attendance_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="COLLECT ATTENDANCE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_add_or_delete_employee_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="ADD OR DELETE EMPLOYEE"
+            android:textColor="#fff"/>
+
+        <Button
+            android:id="@+id/home_page_cng_sign_up_pwd_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#000"
+            android:text="CHANGE SIGN UP PASSWORDS"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</ScrollView>
